@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+#logo_principal {
+    width: 160px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    padding: 18px;
+}
+main{
+    padding: 20px;
+}
+
+form {
+    display: flex;
+}
+
+input{
+    font-size: 16px;
+    padding: 7px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border: none;
+}
+input:focus-visible{
+    outline: none;
+}
+button{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+}
+#titulo_uno {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    border: pink;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 5px;
+    width: 200px;
+    margin: auto;
+    transition: 400ms;
+}
+
+#titulo_uno:hover {
+    background-color: #faa9bd ;
+}
+
+#titulo_dos {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    border: pink;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 5px;
+    width: 200px;
+    margin: auto;
+    transition: 400ms;
+}
+#titulo_dos:hover {
+    background-color: #faa9bd ;
+}
+
+#titulo_tres {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    border: pink;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 5px;
+    width: 200px;
+    margin: auto;
+    transition: 400ms;
+}
+#titulo_tres:hover {
+    background-color: #faa9bd ;
+}
+#foto_laura{
+    width: 300px;
+}
+
+#spiderman {
+    width: 300px;
+}
+
+#taylor_franela {
+    width: 300px;
+}
+
+#cars {
+    width: 300px;
+}
+
+#intensamente {
+    width: 300px;
+}
+
+#Tazas {
+    width: 300px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 6px solid pink;
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+article:hover {
+   box-shadow: 0 10px 20px pink;
+   border-color: #faa9bd ;
+}
+.precio {
+    font-size: 22px;
+}
+
+section {
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    }
+
+#Forro_Real {
+    width: 200px;
+}
+
+#Foto_modelo{
+    width: 220px;
+}
+
+#taza_X {
+    width: 220px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 200ms;
+}
+a:hover {
+    color:#faa9bd;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-around;
+    align-items:center; 
+    padding: 15px;
+}
+
+#derechos {
+    text-align: center;
+}
+.lista{
+    margin-bottom: 7px;
+}
+.li-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Redes-sociales {
+    color: black;
+    text-decoration: none;
+
+}
+footer {
+    font-size: 20px;
+    background-color: pink;
+}
